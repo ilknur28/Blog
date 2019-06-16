@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+<h1>Compose </h1>
+
+<div class="md-form">
+  <form action="/compose" method="post">
+    <div class="form-group">
+      <label for="form7">Title</label>
+      <textarea class="md-textarea form-control" name="postTitle" rows="1"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="form10">Post</label>
+      <textarea class="md-textarea form-control" name="postBody" rows="3"></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit" name="Submit">Publish</button>
+  </form>
+</div>
+
+<!--Textarea with icon prefix-->
+
+
+<%- include("partials/footer") %>
